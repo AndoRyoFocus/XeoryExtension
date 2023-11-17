@@ -221,7 +221,7 @@ a{
 .feature-box{
     max-width: 1200px;
     margin: 0 auto;
-    position: relative;
+    height: 375px;
 }
 
 .feature-item{
@@ -262,4 +262,32 @@ a{
 
 .feature-img{
     position: absolute;
+    top: 130px;
+    right: 0;
+}
+
+.feature-img img{
+    width: 565px;
+}
+
+.fb-right{
+    background-color: #fafafa;
+}
+
+.feature-right{
+    float: right;
+}
+
+.fi-2{
+    top: 506px;
+    left: 0;
+}
+
+.fi-3{
+    top: 880px;
+}
+
+.fi-4{
+    top: 1256px;
+    left: 0;
 }
