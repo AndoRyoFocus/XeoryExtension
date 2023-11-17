@@ -180,10 +180,13 @@ a{
 
 
 
+#feature{
+    position: relative;
+}
 
 
 .feature{
-    margin: 60px 0;
+    margin: 60px 0 0;
     text-align: center;
     background-color: #3B4552;
 }
@@ -196,4 +199,67 @@ a{
 .section-h2{
     font-size: 28px;
     font-weight: normal;
+}
+
+.triangle{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 25px 70px 0 70px;
+    display: inline-block;
+    border-color: #3B4552 transparent transparent transparent;
+    position: absolute;
+    top: 130px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+}
+
+
+
+.feature-box{
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.feature-item{
+    max-width: 650px;
+}
+
+.feature-no{
+    display: inline-block;
+    padding: 45px 13px 7px;
+    background-color: #41BAA4;
+    color: white;
+}
+
+.feature-title{
+    color: #41BAA4;
+    font-size: 36px;
+    font-weight: normal;
+    margin: 30px 10px 8px;
+}
+
+.feature-subtitle{
+    color: #41BAA4;
+    font-size: 13px;
+    margin-left: 8px;
+    margin-bottom: 25px;
+}
+
+.feature-explain{
+    margin-bottom: 50px;
+}
+
+.feature-btn{
+    padding: 14px 60px;
+    border-radius: 5px;
+    background-color: #ff6700;
+    color: white;
+}
+
+.feature-img{
+    position: absolute;
 }
